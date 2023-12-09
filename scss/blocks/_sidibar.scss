@@ -1,0 +1,166 @@
+// NOUTBOOK VA KAMPYUTER QISMI
+
+.sidibar {
+  width: 1480px;
+  height: 684px;
+  background-color: #012f34;
+  display: flex;
+}
+
+.sidibar__reght--box {
+  width: 50px;
+  height: 4px;
+  flex-shrink: 0;
+  background-color: #f67e7e;
+  margin-top: 140px;
+  margin-left: 165px;
+}
+
+.sidibar__reght--head {
+  width: 445px;
+  color: #fff;
+  font-family: Livvic;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 100% */
+  margin-left: 165px;
+  margin-top: 54px;
+}
+
+.sidibar__box {
+  display: flex;
+  margin-bottom: 54px;
+}
+
+.sidibar__left--head {
+  margin-left: 20px;
+}
+
+.sidibar__left {
+  margin-top: 170px;
+  margin-left: 80px;
+  margin-bottom: 100px;
+}
+
+.sidibar__left--headding {
+  width: 445px;
+  color: #f67e7e;
+  font-family: Livvic;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 155.556% */
+}
+
+.sidibar__left--text {
+  width: 445px;
+  color: #fff;
+  font-family: Livvic;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px; /* 166.667% */
+}
+
+.sidibar__img {
+  margin-left: 50px;
+  // margin-top: -30px;
+}
+
+// PLANSHET QISMI
+
+@media only screen and (max-width: 768px) {
+  .sidibar {
+    display: block;
+    width: 768px;
+    height: 1000px;
+  }
+
+  .sidibar__reght--box {
+    margin-left: 100px;
+  }
+
+  .sidibar__reght--head {
+    margin-left: 100px;
+  }
+
+  .sidibar__reght--head {
+    width: 700px;
+  }
+
+  .sidibar__box1 {
+    padding-top: 100px;
+    margin: 0 auto;
+    // margin-left: 450px;
+  }
+
+  .sidibar__img {
+    margin-left: -110px;
+    margin-top: -820px;
+  }
+
+  .sidibar__box {
+    margin-left: 100px;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .sidibar {
+    height: 1500px;
+    width: 375px;
+    // margin-left: -100px;
+  }
+
+  .sidibar__reght {
+    margin-left: -100px;
+  }
+
+  .sidibar__reght--box {
+    margin-left: 120px;
+  }
+  .sidibar__reght--head {
+    width: 240px;
+    margin-left: 120px;
+  }
+
+  .sidibar__box {
+    display: block;
+  }
+
+  .sidibar__left--img {
+    margin-left: -30px;
+  }
+
+  .sidibar__left--head {
+    margin-left: -150px;
+  }
+
+  .sidibar__img {
+    margin-left: 1100px;
+    margin-top: -1000px;
+    display: none;
+  }
+
+  .sidibar__left--headding {
+    color: #f67e7e;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 155.556% */
+    width: 327px;
+  }
+
+  .sidibar__left--text {
+    width: 327px;
+    color: #fff;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px; /* 166.667% */
+  }
+}

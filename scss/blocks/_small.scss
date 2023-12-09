@@ -1,0 +1,130 @@
+.small {
+  width: 1480px;
+  height: 745px;
+  flex-shrink: 0;
+  background-color: #004047;
+}
+
+.small__headding {
+  width: 932px;
+  color: #fff;
+  text-align: center;
+  font-family: Livvic;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 100% */
+  margin: 0 auto;
+}
+.small__headding--span {
+  color: #79c8c7;
+  font-family: Livvic;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.small__list {
+  display: flex;
+  gap: 30px;
+  margin-left: 165px;
+  margin-top: 56px;
+}
+
+.small__images {
+  margin-left: 130px;
+}
+
+.small__text {
+  width: 350px;
+  color: #fff;
+  text-align: center;
+  font-family: Livvic;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px; /* 166.667% */
+  margin-top: -20px;
+}
+
+.small__top--item--head {
+  width: 350px;
+  color: #79c8c7;
+  text-align: center;
+  font-family: Livvic;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 155.556% */
+  margin-top: 30px;
+}
+
+.small__top--item--text {
+  width: 350px;
+  color: #fff;
+  text-align: center;
+  font-family: Livvic;
+  font-size: 13px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 18px; /* 138.462% */
+}
+
+.small__top--item--photo {
+  margin-left: 140px;
+  margin-top: 32px;
+  margin-bottom: 20px;
+}
+
+.small__img2 {
+  margin-top: 45px;
+  margin-left: 1280px;
+}
+
+@media only screen and (max-width: 768px) {
+  .small {
+    width: 768px;
+    height: 1499px;
+    flex-shrink: 0;
+  }
+
+  .small__headding {
+    width: 573px;
+  }
+
+  .small__list {
+    display: block;
+    margin-left: 200px;
+  }
+
+  .small__img2 {
+    margin-left: 565px;
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .small {
+    width: 375px;
+    height: 1650px;
+    flex-shrink: 0;
+  }
+
+  .small__headding {
+    width: 327px;
+  }
+
+  .small__list {
+    margin-left: 20px;
+  }
+
+  .small__text {
+    width: 327px;
+  }
+
+  .small__img2 {
+    margin-left: 170px;
+    margin-top: 40px;
+  }
+}

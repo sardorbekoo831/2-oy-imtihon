@@ -1,0 +1,106 @@
+.asida {
+  width: 1480px;
+  height: 200px;
+  flex-shrink: 0;
+  background-color: #f67e7e;
+}
+
+.asida__main {
+  display: flex;
+  margin-top: -170px;
+  margin-left: 250px;
+}
+
+.asida__main--head {
+  color: #012f34;
+  font-family: Livvic;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38px; /* 79.167% */
+  margin-top: 73px;
+  margin-left: 63px;
+}
+
+.asida__main--img {
+  margin-top: 55px;
+}
+
+.asida__main--button {
+  width: 153px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  border: 2px solid #012f34;
+  background-color: #f67e7e;
+  margin-top: 73px;
+  margin-left: 260px;
+}
+
+.asida__main--button--link {
+  color: #012f34;
+  font-family: Livvic;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 155.556% */
+}
+
+@media only screen and (max-width: 768px) {
+  .asida {
+    width: 768px;
+    height: 200px;
+    flex-shrink: 0;
+  }
+
+  .asida__main {
+    margin-left: 0;
+    margin-top: -220px;
+  }
+
+  .asida__main--head {
+    color: #012f34;
+    font-family: Livvic;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 100% */
+  }
+
+  .asida__main--button {
+    margin-left: 84px;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .asida {
+    width: 375px;
+    height: 302px;
+    flex-shrink: 0;
+  }
+
+  .asida__main {
+    display: block;
+  }
+
+  .asida__main--button {
+    margin-top: 10px;
+    margin-left: 100px;
+  }
+
+  .asida__main--head {
+    width: 327px;
+    color: #012f34;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 100% */
+    margin: 0 auto;
+  }
+
+  .asida__main--img {
+    margin-top: 160px;
+  }
+}
